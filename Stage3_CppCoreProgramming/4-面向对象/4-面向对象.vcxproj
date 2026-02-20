@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{05dd6998-30d9-4810-bd2f-421c7765a15f}</ProjectGuid>
-    <RootNamespace>My2引用</RootNamespace>
+    <ProjectGuid>{e5d1dff5-1324-4530-8e1e-dd16f83f07cf}</ProjectGuid>
+    <RootNamespace>My4面向对象</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>4-类和对象</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,12 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01引用的基本语法.cpp" />
-    <ClCompile Include="02引用注意事项.cpp" />
-    <ClCompile Include="03引用作函数参数.cpp" />
-    <ClCompile Include="04引用做函数返回值.cpp" />
-    <ClCompile Include="05引用的本质.cpp" />
-    <ClCompile Include="06常量引用.cpp" />
+    <ClCompile Include="01封装的意义.cpp" />
+    <ClCompile Include="02封装案例学生类.cpp" />
+    <ClCompile Include="03封装之访问权限.cpp" />
+    <ClCompile Include="04struct和class区别.cpp" />
+    <ClCompile Include="05成员属性设置为私有.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

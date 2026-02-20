@@ -15,22 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01引用的基本语法.cpp">
+    <ClCompile Include="01函数默认参数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02引用注意事项.cpp">
+    <ClCompile Include="02函数占位参数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03引用作函数参数.cpp">
+    <ClCompile Include="03函数重载基本语法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04引用做函数返回值.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="05引用的本质.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="06常量引用.cpp">
+    <ClCompile Include="04函数重载注意事项.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{05dd6998-30d9-4810-bd2f-421c7765a15f}</ProjectGuid>
-    <RootNamespace>My2引用</RootNamespace>
+    <ProjectGuid>{3bae8f0c-4a8a-4e79-b16f-0d127c2c6964}</ProjectGuid>
+    <RootNamespace>My3函数提高</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01引用的基本语法.cpp" />
-    <ClCompile Include="02引用注意事项.cpp" />
-    <ClCompile Include="03引用作函数参数.cpp" />
-    <ClCompile Include="04引用做函数返回值.cpp" />
-    <ClCompile Include="05引用的本质.cpp" />
-    <ClCompile Include="06常量引用.cpp" />
+    <ClCompile Include="01函数默认参数.cpp" />
+    <ClCompile Include="02函数占位参数.cpp" />
+    <ClCompile Include="03函数重载基本语法.cpp" />
+    <ClCompile Include="04函数重载注意事项.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
