@@ -5,7 +5,7 @@
 //保护权限  protected  类内可以访问  类外不可以访问	子类可继承父类的保护权限
 //私有权限  private    类内可以访问  类外不可以访问 子类不可继承父类的私有权限
 
-class Person
+class Person03
 {
 public:
 	std::string m_name;
@@ -22,7 +22,7 @@ public:
 };
 
 int main03() {
-	Person p1;
+	Person03 p1;
 	p1.m_name = "李四";
 	//p1.m_car = "兰博基尼";	// ×不可访问
 	//p1.m_password = 123;	   // ×不可访问
